@@ -130,7 +130,7 @@ img {
  ************************************************/
 
 /* tablet */
- @media (max-width:768px) {
+ @media (max-width:1160px) {
     .container{
         width:100%;
     }
@@ -145,3 +145,4 @@ img {
         width:100%;
     }
  }
+ 
