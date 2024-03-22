@@ -61,6 +61,7 @@ img {
     padding-right: 1rem;
 }
 
+
 /* TEXT */
 .text-center {
     text-align: center;
@@ -127,3 +128,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* tablet */
+ @media (max-width:768px) {
+    .container{
+        width:100%;
+    }
+    
+ }
+/* cellulare */
+ @media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+    }
+    .lessons .col,.steps .col,.why-us .col-left,.why-us .col-right{
+        width:100%;
+    }
+ }
